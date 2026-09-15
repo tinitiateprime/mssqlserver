@@ -235,6 +235,17 @@ VALUES
     (24, 8010, 2, '1983-12-15', '1984-12-15');
 ```
 
+```mermaid
+graph TD;
+    A[Start] --> B{Is it working?};
+    B -- Yes --> C[Enjoy!];
+    B -- No --> D[Fix bug];
+    D --> B;
+
+```
+
+
+
 ##### [Back To Contents](./README.md)
 ***
 | &copy; TINITIATE.COM |
